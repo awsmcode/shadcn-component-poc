@@ -17,7 +17,21 @@
                 }
             ],
             "dependencies": [],
-            "registryDependencies": []
+            "registryDependencies": ["badge"],
+            "cssVars": {
+                "theme": {
+                    "myvar": "green",
+                    "font-heading": "Poppins, sans-serif"
+                },
+                "light": {
+                    "brand": "20 14.3% 4.1%",
+                    "radius": "10rem"
+                },
+                "dark": {
+                    "brand": "20 14.3% 4.1%"
+                }
+            }
+            
         }
     ]
 }
