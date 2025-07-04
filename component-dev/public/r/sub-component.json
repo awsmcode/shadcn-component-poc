@@ -11,7 +11,7 @@
   "files": [
     {
       "path": "src/registry/default/ui/sub-component.tsx",
-      "content": "import { Badge } from \"@/components/ui/badge\"\n\nexport function SubComponent() {\n    return <div>\n<h1 className=\"text-2xl font-bold\" style={{ color: 'var(--myvar)', backgroundColor: \"blue\" }}>\n        Hello World (2) (sub-component)</h1>\n\n<Badge>Content Badge</Badge>\n\n    </div> \n}\n/* argus terraform */",
+      "content": "import { Badge } from \"@/components/ui/badge\"\n\nexport function SubComponent() {\n    return <div>\n<h1 className=\"text-2xl font-bold bg-[var(--mytestvar)]\" style={{ color: 'var(--myvar)' }}>\n        Hello World (2) (sub-component)</h1>\n\n<Badge>Content Badge</Badge>\n\n    </div> \n}\n/* argus terraform */",
       "type": "registry:ui",
       "target": "components/ui/sub-component.tsx"
     }
@@ -19,14 +19,17 @@
   "cssVars": {
     "theme": {
       "myvar": "green",
-      "font-heading": "Poppins, sans-serif"
+      "font-heading": "Poppins, sans-serif",
+      "mytestvar": "violet"
     },
     "light": {
       "brand": "20 14.3% 4.1%",
-      "radius": "10rem"
+      "radius": "10rem",
+      "mytestvar": "violet"
     },
     "dark": {
-      "brand": "20 14.3% 4.1%"
+      "brand": "20 14.3% 4.1%",
+      "mytestvar": "violet"
     }
   }
 }
