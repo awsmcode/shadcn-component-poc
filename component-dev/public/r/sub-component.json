@@ -1,0 +1,17 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "sub-component",
+  "type": "registry:ui",
+  "title": "Sub Component",
+  "description": "A simple sub component",
+  "dependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "src/registry/default/ui/sub-component.tsx",
+      "content": "export function SubComponent() {\n    return <h1 className=\"text-2xl font-bold\">\n        Hello World (2) (sub-component)</h1>\n}\n",
+      "type": "registry:ui",
+      "target": "components/ui/sub-component.tsx"
+    }
+  ]
+}

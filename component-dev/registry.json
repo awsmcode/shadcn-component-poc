@@ -1,0 +1,23 @@
+{
+    "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+    "author": "My Sub Author <hello@example.com>",
+    "name": "sub-component",
+    "homepage": "https://github.com/awsmcode/shadcn-component-poc",
+    "items": [
+        {
+            "name": "sub-component",
+            "type": "registry:ui",
+            "title": "Sub Component",
+            "description": "A simple sub component",
+            "files": [
+                {
+                    "path": "src/registry/default/ui/sub-component.tsx",
+                    "target": "components/ui/sub-component.tsx",
+                    "type": "registry:ui"
+                }
+            ],
+            "dependencies": [],
+            "registryDependencies": []
+        }
+    ]
+}
