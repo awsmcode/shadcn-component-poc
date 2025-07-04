@@ -18,17 +18,22 @@
             ],
             "dependencies": [],
             "registryDependencies": ["badge"],
+            "docs": "Remember to add the FOO_BAR environment variable to your .env file.",
+            "categories": ["panel", "atoms"],
             "cssVars": {
                 "theme": {
                     "myvar": "green",
-                    "font-heading": "Poppins, sans-serif"
+                    "font-heading": "Poppins, sans-serif",
+                    "mytestvar": "violet"
                 },
                 "light": {
                     "brand": "20 14.3% 4.1%",
-                    "radius": "10rem"
+                    "radius": "10rem",
+                    "mytestvar": "violet"
                 },
                 "dark": {
-                    "brand": "20 14.3% 4.1%"
+                    "brand": "20 14.3% 4.1%",
+                    "mytestvar": "violet"
                 }
             }
             
