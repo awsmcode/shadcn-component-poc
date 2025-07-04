@@ -1,8 +1,10 @@
 {
     "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+    "author": "Example Author <hello@example.com>",
     "name": "hello-world",
-    "type": "registry:component",
+    "type": "registry:ui",
     "title": "Hello World",
+    "homepage": "https://github.com/awsmcode/shadcn-component-poc",
     "description": "A simple hello world component",
     "registryDependencies": [
       "button"
@@ -10,8 +12,9 @@
     "files": [
       {
         "path": "registry/new-york/blocks/hello-world/hello-world.tsx",
-        "content": "export function HelloWorld() {\n  return <h1 className=\"text-2xl font-bold\">Hello World</h1>\n}\n",
-        "type": "registry:component"
+        "content": "export function HelloWorld() {\n  return <h1 className=\"text-2xl font-bold\">Hello World (2)</h1>\n}\n",
+        "target": "components/ui/hello-world.tsx",
+        "type": "registry:ui"
       }
     ]
 }
